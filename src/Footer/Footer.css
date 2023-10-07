@@ -1,0 +1,16 @@
+footer{
+    background-color:  #B88E57;
+    padding: 6px 20px;
+}
+footer img{
+    margin-right: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    
+}
+footer span{
+    color: #fff;
+    cursor: pointer;
+    
+}

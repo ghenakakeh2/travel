@@ -1,0 +1,69 @@
+.FAQ-Section {
+    padding: 50px;
+    background-image: url("../../images/FAQ-BackGround.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.FAQ-Section h2 {
+    margin-top: 10%;
+    color: #372723;
+    font-family: Frank Ruhl Libre;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: #00000010;
+    margin: 0;
+
+
+}
+
+.FAQ-Section .content_FAQ {
+    background: #FECD8199;
+    border-radius: 40px;
+    padding: 50px 30px;
+    margin: 0;
+
+}
+
+.FAQ-Section .content_FAQ  .Question {
+    color: #372723;
+}
+.FAQ-Section .content_FAQ .Question:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.FAQ-Section .content_FAQ .Question h4 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.FAQ-Section .content_FAQ .Question p {
+    margin: 0;
+    text-align: left;
+
+}
+@media screen and (max-width:990px) {
+    .FAQ-Section {
+        padding: 10px 30px;
+    }
+    .FAQ-Section h2 {
+        font-size: 40px;
+    }
+    .content_FAQ {
+        padding:  20px;
+    }
+  
+    
+}
+@media screen and (max-width:600px) {
+    .FAQ-Section h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .FAQ-Section {
+        padding:  50px 30px;
+    }
+   
+}

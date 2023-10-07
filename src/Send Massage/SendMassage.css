@@ -1,0 +1,124 @@
+.sendMessage-page{
+    background-color: #FFF4E5B5;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+.sendMessage-page .sendMessage-content{
+    
+    width: 100%;
+
+}
+.sendMessage-page .sendMessage-content .sendMessage-img{
+height: 95vh;
+text-align: left;
+
+background-image: url('../images/send\ massage.png');
+
+}
+.sendMessage-page .sendMessage-content .sendMessage{
+    position: relative;
+    top: -18%;
+    height: 110%;
+
+
+
+}
+.sendMessage-page .sendMessage-content .sendMessage form {
+  width: 60%;
+  background-color: #FECD8199;
+  position: relative;
+  top: 5%;
+  left: 20%;
+  /* height: 100%; */
+  border-radius: 40px;
+  padding: 10px 5px;
+  text-align: center;
+  
+
+}
+
+
+.sendMessage-page .sendMessage-content .sendMessage form input{
+    border-radius: 40px;
+    border: none;
+    width: 90%;
+    color:#37272370;
+    background: #FDF3E5;
+   padding: 8px 20px;
+    display: block;
+    margin: 15px auto;
+    font-family: Frank Ruhl Libre;
+
+}
+.sendMessage-page .sendMessage-content .sendMessage form textarea{
+ background-color: #FDF3E5;
+ width: 90%;
+ padding: 8px 20px;
+height: 40%;
+    resize: none;
+border-radius: 15px;
+border: 1px;
+margin-bottom:  18px;
+
+
+}
+    
+
+.sendMessage-page .sendMessage-content .sendMessage form button{
+   border: none;
+    background-color:  #B88E57;
+   width: 150px  ;
+    border-radius: 39px;
+    color: #FFFFFF;
+    font-family: Frank Ruhl Libre;
+    font-size: 22px;
+    margin-bottom: 2px;
+    display: block;
+    margin: auto;
+
+}
+.sendMessage-page .sendMessage-content .sendMessage form p {
+
+    font-weight: bold;
+}
+.sendMessage-page .sendMessage-content .sendMessage form p span{
+   color: #FFFFFF;
+  font-family: Frank Ruhl Libre;
+   
+
+line-height: 32px;
+letter-spacing: 0rem;
+text-align: center;
+
+}
+h1{ 
+ color:#372723; 
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+position: absolute;
+top: 18%;
+ left: 3%;
+
+}
+@media screen and (max-width:990px) {
+    .sendMessage-page h1{
+        left: 50%;
+        transform: translatex(-50%);
+        font-size: 40px;
+    }
+   
+}
+@media screen and (max-width:600px) {
+    .sendMessage-page h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .sendMessage-page .sendMessage-content .sendMessage 
+    {
+        margin-top: 100px;
+    
+    }
+
+}

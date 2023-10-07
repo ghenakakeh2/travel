@@ -1,0 +1,43 @@
+.About-page {
+    background-image: url("../../images//aboutImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.About-page h1 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 15%;
+    font-size: 40px;
+}
+
+.About-page .Content {
+    width: 90%;
+    height: 350px;
+    border-radius: 40px;
+    background-color: #FECD8199;
+    margin-top: 5%;
+    padding-top: 20px;
+    font-family: Frank Ruhl Libre;
+
+}
+
+@media screen and (max-width:990px) {
+    .About-page .Content {
+        height: 250px;
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .About-page {
+        padding-top: 200px;
+    }
+
+
+}

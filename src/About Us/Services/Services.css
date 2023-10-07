@@ -1,0 +1,72 @@
+service-page{
+    padding-top: 20px;
+}
+.title{
+    background-color: #B88E5780;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   
+}
+.title h2{
+    color: #372723;
+
+    margin-left: 2px;
+    margin-top: 5px;
+
+}
+.content_service{
+    background-color:  #FECD8173;
+    padding: 50px;
+    text-align: center;
+    background-image: url("../../images/services_Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.content_service .item{
+    
+padding: 10px 30px;
+justify-content:space-evenly;
+
+}
+.content_service .item p{
+    background-color:  #B98155CC;
+font-size: 20px;
+border-radius: 40px;
+padding: 8px 30px;
+
+}
+.content_service .item .arrow{
+    width: 100px;
+    height: 100px;
+
+}
+.img-left{
+    text-align: left;
+}
+.img-right{
+    text-align: right;
+}
+@media screen and (max-width:990px) {
+
+}
+@media screen and (max-width:600px) {
+    .img-right{
+    text-align: center;
+}
+.img-left{
+    text-align: center;
+}
+
+    
+
+
+}
